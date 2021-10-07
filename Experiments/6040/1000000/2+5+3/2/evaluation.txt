@@ -1,0 +1,29 @@
+Total: 300000
+Insertions: 600904
+Deletions: 399096
+
+
+Treap performance:
+Total Key Comparisons: 18889619
+Total Rotations: 815978
+Height of Tree: 33
+Average height of nodes (from root to node): 17.8662
+Average height of nodes (from bottom): 3.44952
+Total number of Nodes: 23225
+
+Binary Search Tree performance:
+Total Key Comparisons: 16475438
+Total Rotations: 0
+Height of Tree: 27
+Average height of nodes (from root to node): 15.1467
+Average height of nodes (from bottom): 3.14562
+Total number of Nodes: 23225
+
+AVL Tree performance:
+Total Key Comparisons: 8662102
+Total Rotations: 174418
+Height of Tree: 16
+Average height of nodes (from root to node): 12.7743
+Average height of nodes (from bottom): 2.31953
+Total number of Nodes: 23225
+
