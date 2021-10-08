@@ -92,12 +92,6 @@ int main()
 			cout << "Enter number of operations-" << endl; //take the number of operations
 			cin >> x;
 			nop = x;
-			/*if (nop > (high-low+1))
-			{
-				high = high+nop;
-				if (high < 0)
-					high = INT_MAX;
-			}*/
 			if (nop >= 1000) //for larger input files, confirm about intermediate print commands
 			{
 				cout << "Too big number! Still want to print intermediate tree images? (Y/N)" << endl;

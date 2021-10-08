@@ -14,6 +14,7 @@ long nodeCount = 0, totalHeight = 0, totalDepth = 0;
 unordered_map<int,bool> hashTable;
 
 
+
 /**************************************************************************************************************
  * Utility functions
  * ***********************************************************************************************************/
@@ -223,9 +224,12 @@ void writeFileSequence(string fileSequence, string inputFileName, int beginStatu
 	file.close();
 }
 
+
+
 /**************************************************************************************************************
  * Functions for Stack
  * ***********************************************************************************************************/
+
 void Stack :: push(TreapNode * node)
 {
 	StackNode * newNode = new StackNode(node); //create a new node
@@ -278,6 +282,7 @@ TreapNode * Stack :: viewTop()
 /**************************************************************************************************************
  * Functions for Queue
  * ***********************************************************************************************************/
+
 void Queue :: enqueue(TreapNode * node)
 {
 	QueueNode * newNode = new QueueNode(node); //create a new node
@@ -328,6 +333,7 @@ int Queue :: getSize() //return the size
 /**************************************************************************************************************
  * Functions for Treap
  * ***********************************************************************************************************/
+
 void Treap :: insert(int x)
 {
 	TreapNode * tree = root; //tree stores the reference to the node under which rotation will happen

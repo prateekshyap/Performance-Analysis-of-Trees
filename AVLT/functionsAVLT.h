@@ -9,30 +9,10 @@ int tempCount = 0, maxHeight = -1;
 long nodeCount = 0, totalHeight = 0, totalDepth = 0;
 
 
+
 /**************************************************************************************************************
  * Utility Functions
  * ***********************************************************************************************************/
-/*void printMessage(string outputFileName)
-{
-	/*The initial message printed just after starting the execution
-	cout << endl << endl << "-----------------------------------------" << endl;
-	cout << "           AVL TREE OPERATIONS" << endl;
-	cout << "-----------------------------------------" << endl;
-	cout << "1- Insert k" << endl;
-	cout << "2- Delete k" << endl;
-	cout << "3- Search for k" << endl;
-	cout << "4- Print tree" << endl;
-	cout << "5- Quit" << endl;
-	cout << endl << "-----------------------------------------" << endl;
-	cout << "              INPUT FORMAT" << endl;
-	cout << "-----------------------------------------" << endl;
-	cout << "4\nmeans print the tree\n\n1\n5\n4\nmeans insert 5 into tree and then print tree\n\n2\n4\nmeans delete 4 from tree" << endl;
-	cout << endl << "-----------------------------------------" << endl;
-	cout << "              INSTRUCTIONS" << endl;
-	cout << "-----------------------------------------" << endl;
-	cout << "1. Write a .txt file in mentioned format\nand enter the file name below" << endl;
-	cout << "2. You can check execution details\nin \""<< outputFileName <<"\"" << endl;
-}*/
 
 void generatePNGInAVLT(int os)
 {
@@ -52,6 +32,7 @@ void generatePNGInAVLT(int os)
 /**************************************************************************************************************
  * Functions for AVLTStack
  * ***********************************************************************************************************/
+
 void AVLTStack :: push(AVLTNode * node)
 {
 	AVLTStackNode * newNode = new AVLTStackNode(node); //create a new node
@@ -100,9 +81,11 @@ AVLTNode * AVLTStack :: viewTop()
 }
 
 
+
 /**************************************************************************************************************
  * Functions for AVLTQueue
  * ***********************************************************************************************************/
+
 void AVLTQueue :: enqueue(AVLTNode * node)
 {
 	AVLTQueueNode * newNode = new AVLTQueueNode(node); //create a new node
@@ -149,9 +132,11 @@ int AVLTQueue :: getSize() //return the size
 }
 
 
+
 /**************************************************************************************************************
  * Functions for AVL Tree
  * ***********************************************************************************************************/
+
 void AVLTree :: insert(int x)
 {
 	AVLTNode * tree = root; //tree stores the reference to the node under which rotation will happen
