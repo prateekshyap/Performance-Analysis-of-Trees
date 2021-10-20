@@ -6,7 +6,7 @@
 
 3. Then for linux type ```./a.out```. For windows type ```a.exe``` or ```TreapImpl.exe``` (One of them should work). Hit enter.
 
-4. You can also write "./TreapImpl" and hit enter to execute the makefile which is provided.
+4. You can also write ```./TreapImpl``` and hit enter to execute the makefile which is provided.
 
 5. Now the prompt will be displayed. Enter 0 or 1 for windows or linux respectively.
 
